@@ -1,0 +1,128 @@
+body {
+    background: #f6f7f8;
+}
+
+#paineis-sobre { /*pagging margem a cima */
+    margin-top: 20px;
+}
+
+#espacamento-superior {
+    margin-top: 20px;
+}
+
+.solucoes-principal {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0px;
+    padding: 30px 0 0 0;
+}
+
+span {
+    text-align: center;
+}
+.solucoes-sub {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #123b63;
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 600px) {
+    .solucoes-sub {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color: #123b63;
+    margin-top: 5px;  
+    margin: 0 auto; 
+    }
+} 
+
+
+.li {
+    margin: 0 auto;
+}
+li div centralizar {
+    margin: 0 auto;
+}
+
+.produtos {
+    text-align: center;
+    margin-top: 40px;
+    background: #CCCCCC;
+    margin: -15px auto;
+    padding: 30px 60px;
+    background: #f6f7f8;
+}
+
+@media screen and (max-width: 600px) {
+    .produtos {
+        margin 0 300%;
+    }
+}
+
+.produtos li {
+    display: inline-block;
+    width: 26%;
+    margin-top: 4px;
+    /*padding: 10px 10px 10px 10px;*/
+    /*border: 1px solid rgba(0,0,0,0.05);*/
+    /*align-items: flex-start;*/
+    /*margin: 0 auto;*/
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .produtos li {
+      padding-top: 10px;
+      padding-bottom: 0px;
+      width: 54%;  
+      margin-left: -15px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .desapareca {
+      display:none;  
+    }
+  }
+
+img {
+    text-align: right;
+}
+
+p {
+    padding: 10px;
+    margin: 0 auto;
+}
+.produtos h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #123b63;
+    margin: 10px 10px 10px 10px;  
+    margin-top: 20px; 
+   /* background: #cccccc;*/
+    /*border-radius: 39%;*/
+}
+
+@media screen and (max-width: 600px) {
+.produtos h3 {
+    font-size: 19px;  
+   }
+}
+
+.centralizar {
+    text-align: center; 
+}
+
+.img {
+    border-image: 10px;
+    margin: 10px 10px 70px 10px;
+}
+
+principal {
+    position: center;
+    width: auto;
+    margin: 5px auto;
+}
